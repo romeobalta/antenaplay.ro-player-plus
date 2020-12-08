@@ -1,8 +1,11 @@
 {
-	"name": "AntenaPlay Classic Player",
+	"name": "AntenaPlay.ro Player Plus",
 	"version": "0.0.1",
-	"description": "AntenaPlay Classic Player",
-	"manifest_version": 2,
+	"description": "Basic keybinds for AntenaPlay.ro player.",
+  "manifest_version": 2,
+  "icons": {
+		"128": "128.png"
+	},
   "content_scripts": [
     {
       "matches": [
