@@ -1,0 +1,23 @@
+{
+	"name": "AntenaPlay Classic Player",
+	"version": "0.0.1",
+	"description": "AntenaPlay Classic Player",
+	"manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.antenaplay.ro/*",
+        "http://*.antenaplay.ro/*",
+        "https://antenaplay.ro/*",
+        "http://antenaplay.ro/*"
+      ],
+      "run_at": "document_idle",
+      "js": ["inject.js"]
+    }
+  ],
+	"permissions": [
+		"https://antenaplay.ro/",
+		"http://antenaplay.ro/",
+		"activeTab"
+	]
+}
